@@ -11,8 +11,8 @@ GIT
 
 GIT
   remote: git@github.com:intersailengineering/zf_user_manager.git
-  revision: 66fdba1a88074fbdc40e5eab0e3548e11803a5da
-  branch: development
+  revision: b0dc0ecb335aeab1c45f98de59f09c3cbe20d43c
+  branch: f-albo-test
   specs:
     zf_user_manager (0.0.3)
       bootstrap-sass
@@ -175,14 +175,14 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  coffee-rails (>= 4.0.0)
+  coffee-rails (~> 4.1.0)
   coffee-script-source (= 1.8.0)
   intersail_auth!
   jbuilder (~> 2.0)
   jquery-rails
   pg
   rails (= 4.1.8)
-  sass-rails (>= 4.0.3)
+  sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   sqlite3
   turbolinks
