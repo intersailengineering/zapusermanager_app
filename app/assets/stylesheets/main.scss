@@ -56,9 +56,11 @@ html, body {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    margin-top: -100px;
-    z-index: 0;
+    position: relative;
+    top: -100px;
     padding-top: 100px;
+    z-index: 0;
+
   }
 }
 // Footer
