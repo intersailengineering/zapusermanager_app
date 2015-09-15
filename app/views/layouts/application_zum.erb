@@ -13,7 +13,7 @@
     <img width="70" height="128" id="logo" alt="Araldica Comune di Milano" src="<%= image_path('milano-araldica-interna.png') %>">
     <img width="153" height="37" id="logo-description" alt="Logotipo Comune di Milano" src="<%= image_path('milano-logotipo-interna.png') %>">
     <% if user_signed_in? %>
-        <a href="<%= intersail_auth.destroy_user_session_path %>" class="btn btn-primary" data-method="delete" style="position: absolute; top: 20px; right: 20px;"><i class="glyphicon glyphicon-log-out"></i> Logout</a>
+        <a href="<%= intersail_auth.destroy_user_session_path %>" class="btn btn-primary" data-method="delete" style="position: absolute; top: 20px; right: 20px; z-index:11"><i class="glyphicon glyphicon-log-out"></i> Logout</a>
     <% end %>
   </div>
 
