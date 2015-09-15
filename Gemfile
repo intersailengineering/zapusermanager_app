@@ -25,8 +25,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'zf_user_manager', :git => 'git@github.com:intersailengineering/zf_user_manager.git', :branch => 'f-albo-test'
-gem 'intersail_auth', :git => 'git@github.com:intersailengineering/intersail_auth.git', :branch => 'staging'
+gem 'zf_user_manager', :git => 'https://github.com/intersailengineering/zf_user_manager.git', :branch => 'f-albo-test'
+gem 'intersail_auth', :git => 'https://github.com/intersailengineering/intersail_auth.git', :branch => 'staging'
 gem 'zf_client', :git => 'https://github.com/intersailengineering/zf-client.git', :branch => 'staging'
 
 gem 'pg'
@@ -45,3 +45,9 @@ gem 'pg'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+
+group :production do
+  gem 'closure-compiler'
+  gem 'thin'
+  gem 'thin_service'
+end

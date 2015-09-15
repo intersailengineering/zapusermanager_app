@@ -7,10 +7,11 @@
 default: &default
   adapter: postgresql
   pool: 5
-  username: test
-  password: test
-  timeout: 5000
-
+  username: zapusermanager_app
+  password: password
+  timeout: 5000  
+  database: zapusermanager_app
+  
 development:
   <<: *default
 
