@@ -3,28 +3,65 @@ html, body {
   height: 100%;
   min-height: 700px;
   min-width: 1024px;
-  margin: 0;
-  padding: 0;
 }
 
-.zum_app_main {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
+// Header
 .zum_app_header {
   width: 100%;
-  height: 80px;
-  position: relative;
+  height: 100px;
   top: 0;
   left: 0;
   z-index: 10;
-  background-color: darkgrey;
+  background-color: grey;
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
+.zum_primary_menu {
+  background: #de1f26;
+  border: none;
+  padding-left: 120px;
+  .zum_pm_button_selected{
+    color: #ddd;
+  }
+
+  .zum_pm_button_selected{
+    border-bottom: 5px solid #ddd   !important;
+  }
+}
+
+#logo {
+  position: absolute;
+  top: 24px;
+  z-index: 999;
+  left: 20px;
+}
+
+#logo-description {
+  position: absolute;
+  top: 56px;
+  z-index: 999;
+  left: 120px;
+}
+
+// Body
+.zum_app_main {
+  width: 100%;
+  height: 100%;
+
+  .zum_main_content {
+    border-bottom: 0;
+  }
+
+  .zum_app_content {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: -100px;
+    z-index: 0;
+    padding-top: 100px;
+  }
+}
+// Footer
 .zum_app_footer {
   width: 100%;
   height: 80px;
@@ -32,14 +69,19 @@ html, body {
   bottom: 0;
   left: 0;
   z-index: 10;
-  background-color: darkgrey;
+  background-color: grey;
 }
 
-.zum_app_content {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  margin: -80px 0px -80px 0px;
-  padding: 80px 0px 80px 0px;
-  z-index:0;
+// Typhograpy
+a.btn-primary,
+button.btn-primary,
+input.btn{
+  background-color: #84191D !important;
+  border: 0;
+}
+
+a.btn-primary:hover,
+button.btn-primary:hover,
+input.btn:hover {
+  background-color: #b52a2f  !important;
 }
