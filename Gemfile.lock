@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/intersailengineering/intersail_auth.git
-  revision: 2884deb82f0fd2093806c4de56865819d0e49dfc
-  branch: staging
+  revision: f8114a406d92ba9597164e08dc990e743f26311c
+  branch: production
   specs:
-    intersail_auth (0.2.1)
+    intersail_auth (1.0.1)
       devise
       httparty
       pg
@@ -11,20 +11,20 @@ GIT
 
 GIT
   remote: https://github.com/intersailengineering/zf-client.git
-  revision: b67967c417cc0d15947b210f1ae5bbfeb57cf184
-  branch: staging
+  revision: f131225d841fac2bf4e9e1674f88c7d4fe1cd311
+  tag: 0.2.3
   specs:
-    zf_client (0.0.1)
+    zf_client (0.2.3)
       faker
       httparty
       rails (~> 4.1)
 
 GIT
   remote: https://github.com/intersailengineering/zf_user_manager.git
-  revision: b0dc0ecb335aeab1c45f98de59f09c3cbe20d43c
-  branch: f-albo-test
+  revision: e3149800c4dee62c149547987e562bc754b81bc1
+  tag: 0.0.5
   specs:
-    zf_user_manager (0.0.3)
+    zf_user_manager (0.0.5)
       bootstrap-sass
       coffee-rails (~> 4.1.0)
       intersail_auth
@@ -68,13 +68,13 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
-    autoprefixer-rails (6.0.2)
+    autoprefixer-rails (6.3.1)
       execjs
       json
     bcrypt (3.1.10-x86-mingw32)
-    bootstrap-sass (3.3.5.1)
-      autoprefixer-rails (>= 5.0.0.1)
-      sass (>= 3.3.0)
+    bootstrap-sass (3.3.6)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.2)
     closure-compiler (1.1.11)
     coffee-rails (4.1.0)
@@ -85,7 +85,7 @@ GEM
       execjs
     coffee-script-source (1.8.0)
     daemons (1.2.3)
-    devise (3.5.2)
+    devise (3.5.5)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
@@ -95,9 +95,9 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.8)
     execjs (2.6.0)
-    faker (1.5.0)
+    faker (1.6.1)
       i18n (~> 0.5)
-    httparty (0.13.5)
+    httparty (0.13.7)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
@@ -176,7 +176,7 @@ GEM
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     underscore-rails (1.8.3)
-    warden (1.2.3)
+    warden (1.2.5)
       rack (>= 1.0)
 
 PLATFORMS

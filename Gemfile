@@ -25,9 +25,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'zf_user_manager', :git => 'https://github.com/intersailengineering/zf_user_manager.git', :branch => 'f-albo-test'
-gem 'intersail_auth', :git => 'https://github.com/intersailengineering/intersail_auth.git', :branch => 'staging'
-gem 'zf_client', :git => 'https://github.com/intersailengineering/zf-client.git', :branch => 'staging'
+#gem 'zf_user_manager', :git => 'https://github.com/intersailengineering/zf_user_manager.git', :branch => 'f-albo-test'
+gem 'zf_user_manager', :git => 'https://github.com/intersailengineering/zf_user_manager.git', :tag => '0.0.5'
+gem 'intersail_auth', :git => 'https://github.com/intersailengineering/intersail_auth.git', :branch => 'production'
+#gem 'zf_client', :git => 'https://github.com/intersailengineering/zf-client.git', :branch => 'staging'
+gem 'zf_client', :git => 'https://github.com/intersailengineering/zf-client.git', :tag => '0.2.3'
 
 gem 'pg'
 
